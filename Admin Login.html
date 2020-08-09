@@ -2,15 +2,31 @@
 <head>
 	<meta charset="utf-8">
 	<link href="css/style.css" rel="stylesheet" />
-	<header></header>
+	<script src="js/adminlogin.js"></script>
+	<header>
+		<nav>
+			<div class="topnav" id="myTopnav">
+				<a class="logo" href="#">
+					<img src="img/logo.png">
+				</a>
+				<a href="User Login.html" >User Log In</a>
+				<a href="Admin Login.html" class="active">Admin Log In</a>
+				<a href="Registration.html">Register</a>
+				<a href="Contact Us.html">Contact Us</a>
+			</div>
+		</nav>
+		<h2> Username nd Password is admin admin</h2><br>
+		<h2> It will Just Show an error in either cases</h2>
+	</header>
 	</header>
 	<body>
 		<div class="loginbox">
 			<img src="./img/avtar.png" class="avtar" />
 			<h1 class="h1">Admin Login</h1>
 			<form action="Admin Home.html">
-				<input class="inputtext" type="text" name="" placeholder="Enter Admin key">
-				<input class="inputtext" type="password" name="" placeholder="Enter Password">
+				<input class="inputtext" type="text" id="uname" placeholder="Enter Admin key">
+				<input class="inputtext" type="password" id="pass" placeholder="Enter Password">
+				<input type="checkbox" onclick="show()" style=" ">Show Password
 				<input class="btn" type="submit" name="" value="Login ">
 				<a href="Forget Password.html">Forget Password</a><br>
 			</form>
