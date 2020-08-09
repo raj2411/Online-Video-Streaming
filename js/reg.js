@@ -7,22 +7,22 @@ function verify() {
     var gen = document.getElementById("gen").value;
     var dob = document.getElementById("dob").value;
     var flag = 1;
-    if (fname == null) {
+    if (fname == "") {
         alert("Please fill First Name");
         flag = 0;
     }
 
-    if (lname == null) {
+    if (lname == "") {
         alert("Please fill Last Name");
         flag = 0;
     }
 
-    if (email == null) {
+    if (email == "") {
         alert("Please fill Email");
         flag = 0;
     }
 
-    if (pass == null) {
+    if (pass == "") {
         alert("Please fill password");
         flag = 0;
     }
