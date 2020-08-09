@@ -104,10 +104,10 @@ nav .signin:hover, .btn:hover {
 
 .loginboxreg {
     width: 320px;
-    height: 800px;
+    height: 850px;
     background: #000;
     color: #fff;
-    top: 5%;
+    top: 20%;
     left: 40%;
     position: absolute;
     transform: translate(-5 0%,-50%);
@@ -224,5 +224,173 @@ header nav {
             float: none;
             display: block;
             text-align: left;
+        }
+}
+
+#largeImage {
+    padding: 200px 25px;
+    background: -webkit-linear-gradient( 45deg, rgba(231, 31, 17, 0.7) 0%, #000000 100% ), url(http://cdn.collider.com/wp-content/uploads/Bane-Batman-standoff-The-Dark-Knight-Rises-wall-poster1.jpg) no-repeat left center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.description-box {
+    width: 50%;
+}
+
+    .description-box h1 {
+        font-family: serif;
+        font-weight: 700;
+        font-size: 60px;
+        margin: 0;
+        color: white;
+    }
+
+    .description-box h3 {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 4;
+        font-size: 25px;
+        margin: 0;
+        color: white;
+    }
+
+    .description-box h4 {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 300;
+        margin: 0px;
+        color: white;
+    }
+
+    .description-box p {
+        margin-top: 25px !important;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 100;
+        font-size: 18px;
+        margin: 0px;
+        color: white;
+    }
+
+.button1 {
+    margin-top: 25px !important;
+    display: inline-block;
+    padding: 12px 20px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button2 {
+    margin-top: 25px !important;
+    display: inline-block;
+    padding: 10px 18px;
+    border: 2px solid #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.button2:hover {
+    background: rgba(0, 0, 0, 0.6);
+    border: 2px solid rgba(0, 0, 0, 0.6);
+}
+
+#videoSection {
+    width: 100%;
+    background: black;
+}
+
+.row {
+    font-size: 0;
+    width: 100%;
+}
+
+.videoBoxes {
+    display: inline-block;
+    background: red;
+    width: 300px;
+    min-height: 150px;
+    font-size: 16px;
+    margin: 2.5px;
+    padding: 15px;
+}
+
+    .videoBoxes h4 {
+        font-family: helvetica;
+        font-weight: 100;
+        margin: 0;
+        padding: 0;
+        font-size: 30px;
+        color: white;
+    }
+
+    .videoBoxes p {
+        display: none;
+    }
+
+.video1 {
+    background: -webkit-linear-gradient( 45deg, rgba(231, 31, 17, 0.5) 0%, #000000 100% ), url(https://comicsagogo.files.wordpress.com/2011/11/tintin-movie-poster-horizontal.jpg) no-repeat left center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.video2 {
+    background: -webkit-linear-gradient( 45deg, rgba(231, 31, 17, 0.5) 0%, #000000 100% ), url(https://www.uphe.com/sites/default/files/styles/scale__344w_/public/PacificRimUprising_PosterArt.jpg?itok=CesT-Veo) no-repeat left center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.video3 {
+    background: -webkit-linear-gradient( 45deg, rgba(231, 31, 17, 0.5) 0%, #000000 100% ), url(http://www.atlanticposters.com/images/bigHero6_2343.jpg) no-repeat left center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.video4 {
+    background: -webkit-linear-gradient( 45deg, rgba(231, 31, 17, 0.5) 0%, #000000 100% ), url(https://photos.imageevent.com/afap/wallpapers/movies/starwarsanewhopepostersetc/star%20wars%20poster.jpg) no-repeat left center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.video5 {
+    background: -webkit-linear-gradient( 45deg, rgba(231, 31, 17, 0.5) 0%, #000000 100% ),url(https://www.vintagemovieposters.co.uk/wp-content/uploads/2016/04/IMG_1392.jpg) no-repeat left center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* For Mobile screens */
+
+@media only screen and (max-width: 600px) {
+    .videoBoxes {
+        width: 95%;
+        margin: 2.5%;
+    }
+
+        .videoBoxes h4 {
+            font-family: helvetica;
+            font-weight: 100;
+            font-size: 40px;
+        }
+
+        .videoBoxes p {
+            display: block;
+            font-family: helvetica;
+            font-weight: 300;
+            font-size: 20px;
+            color: #fff;
         }
 }
