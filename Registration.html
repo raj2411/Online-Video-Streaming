@@ -20,23 +20,23 @@
 		<div class="loginboxreg">
 			<img src="./img/avtar.png" class="avtar" />
 			<h1 class="h1">Register Your Self</h1>
-			<form>
-				<input type="text" class="inputtext" id="fname" value="Raj" placeholder="Enter your First name" required />
-				<input type="text" class="inputtext" id="lname" value="Patel" placeholder="Enter you Last name" required />
-				<input class="inputtext" type="text" id="email" value="abc@xyz.com" placeholder="Enter email" required>
-				<input class="inputtext" type="number" id="num" value="8765438504" placeholder="Mobile Number" required>
-				<input class="inputtext" type="password" id="pass" value="abc@212K" placeholder="Enter Password" required>
-				<input class="inputtext" type="password" id="repass" value="abc@212K" placeholder="Re-enter Password" required></br>
+			<form  onsubmit="verify()">
+				<input type="text" class="inputtext" id="fname" value="Raj" placeholder="Enter your First name" />
+				<input type="text" class="inputtext" id="lname" value="Patel" placeholder="Enter you Last name"  />
+				<input class="inputtext" type="text" id="email" value="abc@xyz.com" placeholder="Enter email" >
+				<input class="inputtext" type="number" id="num" value="8765438504" placeholder="Mobile Number" >
+				<input class="inputtext" type="password" id="pass" value="abc@212K" placeholder="Enter Password" >
+				<input class="inputtext" type="password" id="repass" value="abc@212K" placeholder="Re-enter Password" ></br>
 				male<input class="inputtext" id="gen" type="radio" name="g" value="m" checked />
 				female<input class="inputtext" id="gen" type="radio" name="g" value="f" /></br>
-				<input class="inputtext" type="date" id="dob" value="2000-11-24" placeholder="Select your Birthday" required />
+				<input class="inputtext" type="date" id="dob" value="2000-11-24" placeholder="Select your Birthday"  />
 				<select id="conuntry" name="" placeholder="">
 					<option value="none">Select Your Country</option>
 					<option value="India" selected>India</option>
 					<option value="USA">USA</option>
 					<option value="England">England</option>
 				</select>
-				<input class="btn" type="submit" onclick="verify()" value="Register">
+				<input class="btn" type="submit"  value="Register">
 				<a href="User Login.html">Sign In</a>
 			</form>
 	</body>
