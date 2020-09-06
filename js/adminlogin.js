@@ -6,7 +6,7 @@ function validate() {
         return false;
     }
     else {
-        alert("Wrong Username or Password");
+        alert("Incorrect Id or Password");
     }
 }
 
